@@ -47,16 +47,27 @@ Files named `CRC01_{section}_selected_TLScontour.npy` are final curated outputs:
 
 ```python
 selected = np.load("data/selected_tlscontour_npy/CRC01_091_selected_TLScontour.npy")
-print(selected.shape)  # (height, width, 2)
+print(selected.shape)  # (height, width, 3), dtype int16
 
 selected_mask = selected[..., 0] > 0
 selected_labels = selected[..., 1]
+selected_bcore = selected[..., 2]
 ```
 
 Channel convention:
 
 - `selected[..., 0]`: binary mask for manually retained TLS regions
 - `selected[..., 1]`: integer TLS region label map
+- `selected[..., 2]`: raw B-cell core / intermediate contour values from the corresponding raw `CRC01_{section}_TLScontour.npy` channel `[..., 1]`, restricted to the selected TLS mask
+
+All 25 selected section files contain these three channels. The original selected mask and TLS labels (channels 0 and 1) are unchanged. The added channel is computed as:
+
+```python
+raw = np.load("data/raw_tlscontour_npy/CRC01_091_TLScontour.npy")
+selected_bcore = np.where(selected[..., 0] > 0, raw[..., 1], 0)
+```
+
+Raw B-core values (0, 1, 2, and 3) are preserved inside selected TLS regions; all pixels outside are set to 0. This is not a binary mask or a sequential B-core label map. No new B-core numbering or connected-component labeling is applied. A value of 0 denotes a zero raw value or a pixel excluded by the selected TLS mask.
 
 Labels are main TLS region IDs. When a region was manually subdivided during review, only the retained pixels were kept, but the final saved label remains the main region ID.
 
@@ -70,6 +81,7 @@ arr = np.load(path)
 
 mask = arr[..., 0] > 0
 labels = arr[..., 1]
+bcore = arr[..., 2]
 region_ids = sorted(int(x) for x in np.unique(labels) if x != 0)
 
 print(region_ids)
