@@ -1,6 +1,6 @@
 # CyCIF selected TLS alignment — section 052 reference
 
-CRC01 的 **25 张切片、196 个 selected TLS 区域**已统一到 section **052 的 XY 坐标系**。这里保存最终 24 个相邻配准、可直接调用的变换矩阵、四通道 TLS 数据和交互式 3D／XY／XZ 视图。包含 084；跳过 045、046、047（通道不同）。
+The **25 slices and 196 selected TLS areas** of CRC01 have been unified to the XY coordinate system** of section **052**. The final 24 neighbor registrations, directly recallable transformation matrices, four-channel TLS data and interactive 3D/XY/XZ views are saved here. Contains 084; skips 045, 046, 047 (different channels).
 
 ![Aligned selected TLS: 3D, XY and XZ](figures/TLS_3D_aligned.png)
 
