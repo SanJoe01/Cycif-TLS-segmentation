@@ -1,0 +1,395 @@
+{
+  "status": "passed",
+  "sections": 25,
+  "regions": 196,
+  "reference_section": "052",
+  "source_alignment_sha256": "48126c9d5c86cf03215ced7ad1701197c08cfa67f4d5c48f39d2f1e90ef036ef",
+  "source_arrays_unchanged": true,
+  "approved_alignment_unchanged": true,
+  "common_canvas_shape_yx": [
+    865,
+    1219
+  ],
+  "common_canvas_origin_xy": [
+    662.0,
+    1538.0
+  ],
+  "checks": [
+    {
+      "section": "002",
+      "exact_points": 48668,
+      "source_selected_pixels": 48668,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 50960,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "007",
+      "exact_points": 39427,
+      "source_selected_pixels": 39427,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 39424,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "014",
+      "exact_points": 25912,
+      "source_selected_pixels": 25912,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 22796,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "020",
+      "exact_points": 48192,
+      "source_selected_pixels": 48192,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 48194,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "025",
+      "exact_points": 50488,
+      "source_selected_pixels": 50488,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 50468,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "029",
+      "exact_points": 48069,
+      "source_selected_pixels": 48069,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 44777,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "034",
+      "exact_points": 64483,
+      "source_selected_pixels": 64483,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 69219,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "039",
+      "exact_points": 49553,
+      "source_selected_pixels": 49553,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 49550,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "044",
+      "exact_points": 69550,
+      "source_selected_pixels": 69550,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 64717,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "049",
+      "exact_points": 68956,
+      "source_selected_pixels": 68956,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 64074,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "050",
+      "exact_points": 66011,
+      "source_selected_pixels": 66011,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 66044,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "051",
+      "exact_points": 87649,
+      "source_selected_pixels": 87649,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 81579,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "052",
+      "exact_points": 79710,
+      "source_selected_pixels": 79710,
+      "inverse_max_error_px": 2.2737367544323206e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 79710,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "054",
+      "exact_points": 86343,
+      "source_selected_pixels": 86343,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 74434,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "059",
+      "exact_points": 73524,
+      "source_selected_pixels": 73524,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 73513,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "064",
+      "exact_points": 90806,
+      "source_selected_pixels": 90806,
+      "inverse_max_error_px": 6.821210263296962e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 84407,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "069",
+      "exact_points": 89732,
+      "source_selected_pixels": 89732,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 71549,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "074",
+      "exact_points": 76480,
+      "source_selected_pixels": 76480,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 61204,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "078",
+      "exact_points": 83295,
+      "source_selected_pixels": 83295,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 66517,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "084",
+      "exact_points": 64354,
+      "source_selected_pixels": 64354,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 51317,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "086",
+      "exact_points": 76238,
+      "source_selected_pixels": 76238,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 65739,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "091",
+      "exact_points": 92766,
+      "source_selected_pixels": 92766,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 79981,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "097",
+      "exact_points": 88113,
+      "source_selected_pixels": 88113,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 76061,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "102",
+      "exact_points": 111905,
+      "source_selected_pixels": 111905,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 96587,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    },
+    {
+      "section": "106",
+      "exact_points": 72948,
+      "source_selected_pixels": 72948,
+      "inverse_max_error_px": 9.094947017729282e-13,
+      "exact_labels_preserved": true,
+      "exact_four_channels_preserved": true,
+      "raster_pixels": 58111,
+      "raster_missing_ids": {
+        "1": [],
+        "3": []
+      },
+      "raster_no_clipping": true
+    }
+  ],
+  "edge_composition_max_errors": {
+    "007_to_002": 2.8421709430404007e-13,
+    "014_to_007": 2.8421709430404007e-13,
+    "020_to_014": 1.9895196601282805e-13,
+    "025_to_020": 4.263256414560601e-13,
+    "029_to_025": 1.1368683772161603e-13,
+    "034_to_029": 1.1102230246251565e-13,
+    "039_to_034": 4.547473508864641e-13,
+    "044_to_039": 9.947598300641403e-14,
+    "049_to_044": 1.7053025658242404e-13,
+    "050_to_049": 5.115907697472721e-13,
+    "051_to_050": 5.684341886080802e-14,
+    "052_to_051": 5.684341886080802e-14,
+    "054_to_052": 3.979039320256561e-13,
+    "059_to_054": 4.263256414560601e-14,
+    "064_to_059": 5.684341886080802e-14,
+    "069_to_064": 1.1368683772161603e-13,
+    "074_to_069": 8.242295734817162e-13,
+    "078_to_074": 3.979039320256561e-13,
+    "084_to_078": 3.552713678800501e-13,
+    "086_to_084": 1.1368683772161603e-13,
+    "091_to_086": 2.2737367544323206e-13,
+    "097_to_091": 1.9895196601282805e-13,
+    "102_to_097": 1.1368683772161603e-13,
+    "106_to_102": 2.842170943040401e-14
+  }
+}

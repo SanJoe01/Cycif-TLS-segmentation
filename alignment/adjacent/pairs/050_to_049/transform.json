@@ -1,0 +1,156 @@
+{
+  "pipeline_version": "1.1",
+  "source_section": "050",
+  "target_section": "049",
+  "section_number_gap": 1,
+  "source_sha256": "57027bf2a27da66c87356138f7101ec4a7a3b056371945950f1e4554fbff8dd0",
+  "target_sha256": "18ceb4a05923f2add9361674563963ce9977c11ca17f80e0b9ec57d2cc4c22ce",
+  "coordinate_system": "original whole-section Xt/Yt pixels; x right, y down",
+  "formula": "xy_target = (xy_source - source_center_xy) @ rotation_matrix.T + target_center_xy",
+  "rotation_angle_deg": -0.557422002994249,
+  "angle_convention": "atan2(R[1,0],R[0,0]); positive looks clockwise when plotting y downward",
+  "source_center_xy": [
+    7641.1875163005525,
+    10808.797953042636
+  ],
+  "target_center_xy": [
+    7478.898025275715,
+    10656.323654846246
+  ],
+  "translation_after_rotation_about_source_center_xy": [
+    -162.28949102483784,
+    -152.47429819639
+  ],
+  "affine_offset_xy": [
+    -267.08338001330594,
+    -77.62398420448699
+  ],
+  "rotation_matrix": [
+    [
+      0.9999526751191676,
+      0.009728695802616427
+    ],
+    [
+      -0.00972869580261626,
+      0.9999526751191679
+    ]
+  ],
+  "determinant": 0.9999999999999996,
+  "homogeneous_matrix_source_to_target": [
+    [
+      0.9999526751191676,
+      0.009728695802616427,
+      -267.08338001330594
+    ],
+    [
+      -0.00972869580261626,
+      0.9999526751191679,
+      -77.62398420448699
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "homogeneous_matrix_target_to_source": [
+    [
+      0.9999526751191683,
+      -0.00972869580261643,
+      266.31556019486214
+    ],
+    [
+      0.009728695802616266,
+      0.9999526751191681,
+      80.21868361676881
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "homogeneous_convention": "column vectors: [x_target,y_target,1] = H @ [x_source,y_source,1]",
+  "method": {
+    "name": "PASTE",
+    "alpha": 0.1,
+    "dissimilarity": "euclidean",
+    "norm": false,
+    "numItermax": 200,
+    "bin_size": 400,
+    "min_cells": 5,
+    "normalization": "pairwise pooled per-feature p1/p99; clip [0,1]",
+    "features": [
+      "Hoechst0",
+      "Hoechst1",
+      "Hoechst2",
+      "Hoechst3",
+      "Hoechst4",
+      "Hoechst5",
+      "Hoechst6",
+      "Hoechst7",
+      "Hoechst8",
+      "Hoechst9",
+      "AF488",
+      "A488",
+      "CD3",
+      "Ki67",
+      "CD4",
+      "CD20",
+      "CD163",
+      "Ecadherin",
+      "LaminABC",
+      "PCNA",
+      "AF555",
+      "A555",
+      "NaKATPase",
+      "Keratin",
+      "CD45",
+      "CD68",
+      "FOXP3",
+      "Vimentin",
+      "Desmin",
+      "Ki67_570",
+      "AF647",
+      "A647",
+      "CD45RO",
+      "aSMA",
+      "PD1",
+      "CD8a",
+      "PDL1",
+      "CDX2",
+      "CD31",
+      "Collagen"
+    ]
+  },
+  "objective": -23255593.71108575,
+  "n_target_bins": 1159,
+  "n_source_bins": 1245,
+  "validation": {
+    "paste_mapping_max_error_px": 0.0,
+    "target_reconstruction_error_px": 0.0,
+    "homogeneous_max_error_px": 7.275957614183426e-12,
+    "inverse_roundtrip_max_error_px": 7.275957614183426e-12,
+    "transport_row_marginal_max_error": 0.0,
+    "transport_column_marginal_max_error": 2.673642557349254e-16,
+    "transport_mass": 1.0
+  },
+  "qc_before": {
+    "symmetric_nn_median_px": 41.9966902175733,
+    "symmetric_nn_p95_px": 482.93175564449075,
+    "fraction_within_400px": 0.9130615640599001,
+    "transport_rmse_px": 500.9885643404776,
+    "transport_feature_mse": 2.0274315889665933
+  },
+  "qc_after": {
+    "symmetric_nn_median_px": 211.77000072239508,
+    "symmetric_nn_p95_px": 353.81808285351036,
+    "fraction_within_400px": 0.9638103161397671,
+    "transport_rmse_px": 445.1477376903561,
+    "transport_feature_mse": 2.0274315889665933
+  },
+  "qc_status": "pass_whole_section_qc",
+  "qc_reasons": [],
+  "qc_scope": "Heuristic whole-section bin geometry QC; does not validate local TLS correspondence.",
+  "runtime_seconds": 16.900726079940796
+}

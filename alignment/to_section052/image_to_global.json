@@ -1,0 +1,1608 @@
+{
+  "method": "user-provided x*sx, y*sy mapping; full tile-grid extent inferred from CSV",
+  "assumption": "full field starts at zero; observed COL/ROW extrema cover the acquired tile grid; no extra crop or rotation",
+  "limitation": "tile-grid extents are inferred from cell metadata, not exact original stitched-image dimensions; independent axis ratios absorb small stitching/resize differences",
+  "physical_units": "Xt/Yt units retained as stored; no extra 0.65 factor applied",
+  "sections": {
+    "002": {
+      "image_shape_yx": [
+        3000,
+        2827
+      ],
+      "original_resized_tiff_shape_yx": [
+        2827,
+        3000
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          2826.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "notebook/CRC01_002.ipynb and build_selected_tls_section_results_and_overview.py: np.rot90(k=-1); undo clockwise rotation",
+      "image_pixel_to_global_XtYt": [
+        [
+          0.0,
+          6.4783333333333335,
+          0.0
+        ],
+        [
+          -6.482985496993279,
+          0.0,
+          18320.917014503008
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-002.csv",
+      "source_csv_sha256": "0f47ac7d320bad350fd1a6ddae5a3479392237e4a6c178ffaa04b360b617fedb",
+      "inferred_grid": {
+        "section": "002",
+        "height": 2827,
+        "width": 3000,
+        "tile_columns": 23,
+        "tile_rows": 28,
+        "pitch_x": 845.0,
+        "pitch_y": 654.55,
+        "full_Xt_width": 19435.0,
+        "full_Yt_height": 18327.399999999998,
+        "sx": 6.4783333333333335,
+        "sy": 6.482985496993279,
+        "max_cell_Xt": 18979.745,
+        "max_cell_Yt": 18286.116,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "007": {
+      "image_shape_yx": [
+        3000,
+        2686
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2686
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.33060312732688,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.333600000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-007.csv",
+      "source_csv_sha256": "e09e1551c2db77a627ba18aa2e8300886ab858709d8c4792dd8d3ffd1f3e3d4a",
+      "inferred_grid": {
+        "section": "007",
+        "height": 3000,
+        "width": 2686,
+        "tile_columns": 20,
+        "tile_rows": 29,
+        "pitch_x": 850.2,
+        "pitch_y": 655.2,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 19000.800000000003,
+        "sx": 6.33060312732688,
+        "sy": 6.333600000000001,
+        "max_cell_Xt": 16989.579,
+        "max_cell_Yt": 18819.722,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "014": {
+      "image_shape_yx": [
+        2743,
+        3000
+      ],
+      "original_resized_tiff_shape_yx": [
+        2743,
+        3000
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.93775,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.93744075829384,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-014.csv",
+      "source_csv_sha256": "17b5cdfcad8adb289c288a98f63fbdb046d9ae39262fccc69afc42d141efed25",
+      "inferred_grid": {
+        "section": "014",
+        "height": 2743,
+        "width": 3000,
+        "tile_columns": 21,
+        "tile_rows": 24,
+        "pitch_x": 848.25,
+        "pitch_y": 678.6,
+        "full_Xt_width": 17813.25,
+        "full_Yt_height": 16286.400000000001,
+        "sx": 5.93775,
+        "sy": 5.93744075829384,
+        "max_cell_Xt": 17736.619,
+        "max_cell_Yt": 16256.908,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "020": {
+      "image_shape_yx": [
+        3000,
+        2813
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2813
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.332474226804123,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.333600000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-020.csv",
+      "source_csv_sha256": "b9dbd8911978a837eebd157937c202e658322a1b651c5372d66b5f218b3e1458",
+      "inferred_grid": {
+        "section": "020",
+        "height": 3000,
+        "width": 2813,
+        "tile_columns": 21,
+        "tile_rows": 29,
+        "pitch_x": 848.25,
+        "pitch_y": 655.2,
+        "full_Xt_width": 17813.25,
+        "full_Yt_height": 19000.800000000003,
+        "sx": 6.332474226804123,
+        "sy": 6.333600000000001,
+        "max_cell_Xt": 17650.146,
+        "max_cell_Yt": 18954.737,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "025": {
+      "image_shape_yx": [
+        3000,
+        2814
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2814
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.330223880597015,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.333600000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-025.csv",
+      "source_csv_sha256": "cb06448fcc85a9d03c44232bbcd5707241e71ff8fab16b93e3037bbf58e84d8b",
+      "inferred_grid": {
+        "section": "025",
+        "height": 3000,
+        "width": 2814,
+        "tile_columns": 21,
+        "tile_rows": 29,
+        "pitch_x": 848.25,
+        "pitch_y": 655.2,
+        "full_Xt_width": 17813.25,
+        "full_Yt_height": 19000.800000000003,
+        "sx": 6.330223880597015,
+        "sy": 6.333600000000001,
+        "max_cell_Xt": 17723.027,
+        "max_cell_Yt": 18908.212,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "029": {
+      "image_shape_yx": [
+        3000,
+        2653
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2653
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.1075009423294375,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.109133333333332,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-029.csv",
+      "source_csv_sha256": "234dfa4507b78e7d2dcf0823d445d50115e1239308a02cf769c411a231cdc23b",
+      "inferred_grid": {
+        "section": "029",
+        "height": 3000,
+        "width": 2653,
+        "tile_columns": 19,
+        "tile_rows": 28,
+        "pitch_x": 852.8,
+        "pitch_y": 654.55,
+        "full_Xt_width": 16203.199999999999,
+        "full_Yt_height": 18327.399999999998,
+        "sx": 6.1075009423294375,
+        "sy": 6.109133333333332,
+        "max_cell_Xt": 16182.114,
+        "max_cell_Yt": 18145.427,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "034": {
+      "image_shape_yx": [
+        3000,
+        2593
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2593
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.557655225607404,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.5585,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-034.csv",
+      "source_csv_sha256": "c0083dbae72483feb39dcc714020fa9f1e737efe5ab81854c5072669fcd706ba",
+      "inferred_grid": {
+        "section": "034",
+        "height": 3000,
+        "width": 2593,
+        "tile_columns": 20,
+        "tile_rows": 30,
+        "pitch_x": 850.2,
+        "pitch_y": 655.85,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 19675.5,
+        "sx": 6.557655225607404,
+        "sy": 6.5585,
+        "max_cell_Xt": 16597.078,
+        "max_cell_Yt": 19383.125,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "039": {
+      "image_shape_yx": [
+        3000,
+        2686
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2686
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.33060312732688,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.333600000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-039.csv",
+      "source_csv_sha256": "3b91d1fd20cffa94a99092ff004c4de71704da57f0b81a14215f600c77fa20c9",
+      "inferred_grid": {
+        "section": "039",
+        "height": 3000,
+        "width": 2686,
+        "tile_columns": 20,
+        "tile_rows": 29,
+        "pitch_x": 850.2,
+        "pitch_y": 655.2,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 19000.800000000003,
+        "sx": 6.33060312732688,
+        "sy": 6.333600000000001,
+        "max_cell_Xt": 16744.606,
+        "max_cell_Yt": 18814.247,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "044": {
+      "image_shape_yx": [
+        3000,
+        2785
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2785
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.1102333931777375,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.109133333333332,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-044.csv",
+      "source_csv_sha256": "d077fe9041f141985cc4ddd6bd4ba6466ca6e0dc7e32aca4abe3132c501fdd33",
+      "inferred_grid": {
+        "section": "044",
+        "height": 3000,
+        "width": 2785,
+        "tile_columns": 20,
+        "tile_rows": 28,
+        "pitch_x": 850.85,
+        "pitch_y": 654.55,
+        "full_Xt_width": 17017.0,
+        "full_Yt_height": 18327.399999999998,
+        "sx": 6.1102333931777375,
+        "sy": 6.109133333333332,
+        "max_cell_Xt": 16956.977,
+        "max_cell_Yt": 18173.382,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "049": {
+      "image_shape_yx": [
+        3000,
+        2786
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2786
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.103374012921751,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.1074,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-049.csv",
+      "source_csv_sha256": "18ceb4a05923f2add9361674563963ce9977c11ca17f80e0b9ec57d2cc4c22ce",
+      "inferred_grid": {
+        "section": "049",
+        "height": 3000,
+        "width": 2786,
+        "tile_columns": 20,
+        "tile_rows": 27,
+        "pitch_x": 850.2,
+        "pitch_y": 678.6,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 18322.2,
+        "sx": 6.103374012921751,
+        "sy": 6.1074,
+        "max_cell_Xt": 16870.431,
+        "max_cell_Yt": 18186.206,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "050": {
+      "image_shape_yx": [
+        3000,
+        2687
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2687
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.333085225158169,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.333600000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-050.csv",
+      "source_csv_sha256": "57027bf2a27da66c87356138f7101ec4a7a3b056371945950f1e4554fbff8dd0",
+      "inferred_grid": {
+        "section": "050",
+        "height": 3000,
+        "width": 2687,
+        "tile_columns": 20,
+        "tile_rows": 29,
+        "pitch_x": 850.85,
+        "pitch_y": 655.2,
+        "full_Xt_width": 17017.0,
+        "full_Yt_height": 19000.800000000003,
+        "sx": 6.333085225158169,
+        "sy": 6.333600000000001,
+        "max_cell_Xt": 16965.98,
+        "max_cell_Yt": 18651.226,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "051": {
+      "image_shape_yx": [
+        3000,
+        2785
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2785
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.1055655296229805,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.109133333333332,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-051.csv",
+      "source_csv_sha256": "4a17066a626a8341262d500cb52904d0a432a2e555fa47df2528881eb3a2da0b",
+      "inferred_grid": {
+        "section": "051",
+        "height": 3000,
+        "width": 2785,
+        "tile_columns": 20,
+        "tile_rows": 28,
+        "pitch_x": 850.2,
+        "pitch_y": 654.55,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 18327.399999999998,
+        "sx": 6.1055655296229805,
+        "sy": 6.109133333333332,
+        "max_cell_Xt": 16635.277,
+        "max_cell_Yt": 18283.864,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "052": {
+      "image_shape_yx": [
+        3000,
+        2686
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2686
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.33060312732688,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.333600000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-052.csv",
+      "source_csv_sha256": "11964a71eb625ba32fcb5ffc53f63c692f103e6d2c8d1d5012fed7cdc190ee4e",
+      "inferred_grid": {
+        "section": "052",
+        "height": 3000,
+        "width": 2686,
+        "tile_columns": 20,
+        "tile_rows": 29,
+        "pitch_x": 850.2,
+        "pitch_y": 655.2,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 19000.800000000003,
+        "sx": 6.33060312732688,
+        "sy": 6.333600000000001,
+        "max_cell_Xt": 16810.136,
+        "max_cell_Yt": 18755.412,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "054": {
+      "image_shape_yx": [
+        3000,
+        2893
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2893
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.877635672312478,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.881200000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-054.csv",
+      "source_csv_sha256": "93155c0f20d3e58777b5a9f75c5c978782156255efabb2d903fc25252d340015",
+      "inferred_grid": {
+        "section": "054",
+        "height": 3000,
+        "width": 2893,
+        "tile_columns": 20,
+        "tile_rows": 26,
+        "pitch_x": 850.2,
+        "pitch_y": 678.6,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 17643.600000000002,
+        "sx": 5.877635672312478,
+        "sy": 5.881200000000001,
+        "max_cell_Xt": 16577.839,
+        "max_cell_Yt": 17613.385,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "059": {
+      "image_shape_yx": [
+        3000,
+        2686
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2686
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.33060312732688,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.333600000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-059.csv",
+      "source_csv_sha256": "c61927744c70abf8728ef5b988251a1dd8c1907381723f431f42fceaac8e0872",
+      "inferred_grid": {
+        "section": "059",
+        "height": 3000,
+        "width": 2686,
+        "tile_columns": 20,
+        "tile_rows": 29,
+        "pitch_x": 850.2,
+        "pitch_y": 655.2,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 19000.800000000003,
+        "sx": 6.33060312732688,
+        "sy": 6.333600000000001,
+        "max_cell_Xt": 16896.189,
+        "max_cell_Yt": 18483.452,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "064": {
+      "image_shape_yx": [
+        3000,
+        2653
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2653
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          6.102845834903882,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.1074,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-064.csv",
+      "source_csv_sha256": "dc70ff2971a1b978ca99750fcd9ab9e28dd391d81c450d1f476d6132ef037710",
+      "inferred_grid": {
+        "section": "064",
+        "height": 3000,
+        "width": 2653,
+        "tile_columns": 19,
+        "tile_rows": 27,
+        "pitch_x": 852.15,
+        "pitch_y": 678.6,
+        "full_Xt_width": 16190.85,
+        "full_Yt_height": 18322.2,
+        "sx": 6.102845834903882,
+        "sy": 6.1074,
+        "max_cell_Xt": 15990.151,
+        "max_cell_Yt": 17851.213,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "069": {
+      "image_shape_yx": [
+        3000,
+        2868
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2868
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.653957461645747,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.655,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-069.csv",
+      "source_csv_sha256": "3bb2346801786c669ec292e0893b713ec17a4e3999089ee3f37431ed99a4863b",
+      "inferred_grid": {
+        "section": "069",
+        "height": 3000,
+        "width": 2868,
+        "tile_columns": 19,
+        "tile_rows": 25,
+        "pitch_x": 853.45,
+        "pitch_y": 678.6,
+        "full_Xt_width": 16215.550000000001,
+        "full_Yt_height": 16965.0,
+        "sx": 5.653957461645747,
+        "sy": 5.655,
+        "max_cell_Xt": 15926.258,
+        "max_cell_Yt": 16764.347,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "074": {
+      "image_shape_yx": [
+        2874,
+        3000
+      ],
+      "original_resized_tiff_shape_yx": [
+        2874,
+        3000
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.668,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.666805845511483,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-074.csv",
+      "source_csv_sha256": "777b26ff461c0b835e2b7385a08390bc24c27f3eabaed89467da2cc0d0b0edf2",
+      "inferred_grid": {
+        "section": "074",
+        "height": 2874,
+        "width": 3000,
+        "tile_columns": 20,
+        "tile_rows": 24,
+        "pitch_x": 850.2,
+        "pitch_y": 678.6,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 16286.400000000001,
+        "sx": 5.668,
+        "sy": 5.666805845511483,
+        "max_cell_Xt": 16951.022,
+        "max_cell_Yt": 16222.41,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "078": {
+      "image_shape_yx": [
+        3000,
+        2864
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2864
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.65754189944134,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.660416666666666,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-078.csv",
+      "source_csv_sha256": "63ea5c55e6707f8a4d49f5dfafb12990f65201e4a4c6689f58ab55e123893989",
+      "inferred_grid": {
+        "section": "078",
+        "height": 3000,
+        "width": 2864,
+        "tile_columns": 19,
+        "tile_rows": 25,
+        "pitch_x": 852.8,
+        "pitch_y": 679.25,
+        "full_Xt_width": 16203.199999999999,
+        "full_Yt_height": 16981.25,
+        "sx": 5.65754189944134,
+        "sy": 5.660416666666666,
+        "max_cell_Xt": 16067.951,
+        "max_cell_Yt": 16727.307,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "084": {
+      "image_shape_yx": [
+        3000,
+        2865
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2865
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.655567190226876,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.655,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-084.csv",
+      "source_csv_sha256": "db02708980ab4addda1704cd51e4b53e6a3b6b364cf88faa39de5103d0178a42",
+      "inferred_grid": {
+        "section": "084",
+        "height": 3000,
+        "width": 2865,
+        "tile_columns": 19,
+        "tile_rows": 25,
+        "pitch_x": 852.8,
+        "pitch_y": 678.6,
+        "full_Xt_width": 16203.199999999999,
+        "full_Yt_height": 16965.0,
+        "sx": 5.655567190226876,
+        "sy": 5.655,
+        "max_cell_Xt": 16013.493,
+        "max_cell_Yt": 16829.984,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "086": {
+      "image_shape_yx": [
+        3000,
+        2755
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2755
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.881379310344827,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.881200000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-086.csv",
+      "source_csv_sha256": "4af4dc8fd151fd6dcef4738d28642d85e0cafdf2ad50363a305cd5e1b6be8d61",
+      "inferred_grid": {
+        "section": "086",
+        "height": 3000,
+        "width": 2755,
+        "tile_columns": 19,
+        "tile_rows": 26,
+        "pitch_x": 852.8,
+        "pitch_y": 678.6,
+        "full_Xt_width": 16203.199999999999,
+        "full_Yt_height": 17643.600000000002,
+        "sx": 5.881379310344827,
+        "sy": 5.881200000000001,
+        "max_cell_Xt": 15756.54,
+        "max_cell_Yt": 17271.498,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "091": {
+      "image_shape_yx": [
+        3000,
+        2754
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2754
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.879030501089325,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.881200000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-091.csv",
+      "source_csv_sha256": "376311b4d114705123ef55467f12bd0654b003110a57897765c7971ae102ddb4",
+      "inferred_grid": {
+        "section": "091",
+        "height": 3000,
+        "width": 2754,
+        "tile_columns": 19,
+        "tile_rows": 26,
+        "pitch_x": 852.15,
+        "pitch_y": 678.6,
+        "full_Xt_width": 16190.85,
+        "full_Yt_height": 17643.600000000002,
+        "sx": 5.879030501089325,
+        "sy": 5.881200000000001,
+        "max_cell_Xt": 16004.352,
+        "max_cell_Yt": 17282.929,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "097": {
+      "image_shape_yx": [
+        3000,
+        2891
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2891
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.881701833275683,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.881200000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-097.csv",
+      "source_csv_sha256": "78b5a655866fbf281649dc7f220aa19e9f4025147a85fda8447d0829ebf199c3",
+      "inferred_grid": {
+        "section": "097",
+        "height": 3000,
+        "width": 2891,
+        "tile_columns": 20,
+        "tile_rows": 26,
+        "pitch_x": 850.2,
+        "pitch_y": 678.6,
+        "full_Xt_width": 17004.0,
+        "full_Yt_height": 17643.600000000002,
+        "sx": 5.881701833275683,
+        "sy": 5.881200000000001,
+        "max_cell_Xt": 16976.246,
+        "max_cell_Yt": 17456.022,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "102": {
+      "image_shape_yx": [
+        3000,
+        2754
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2754
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.883514887436456,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.881200000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-102.csv",
+      "source_csv_sha256": "4c149dd7f3d6f1b6b3bab9aa5b39713d0061947ea49ecc0b1ad46c7b8001cbc7",
+      "inferred_grid": {
+        "section": "102",
+        "height": 3000,
+        "width": 2754,
+        "tile_columns": 19,
+        "tile_rows": 26,
+        "pitch_x": 852.8,
+        "pitch_y": 678.6,
+        "full_Xt_width": 16203.199999999999,
+        "full_Yt_height": 17643.600000000002,
+        "sx": 5.883514887436456,
+        "sy": 5.881200000000001,
+        "max_cell_Xt": 16107.512,
+        "max_cell_Yt": 17360.872,
+        "frame_layout_max_error": 0.0
+      }
+    },
+    "106": {
+      "image_shape_yx": [
+        3000,
+        2864
+      ],
+      "original_resized_tiff_shape_yx": [
+        3000,
+        2864
+      ],
+      "selected_image_to_original_resized_tiff": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "orientation_provenance": "same orientation as TIFF",
+      "image_pixel_to_global_XtYt": [
+        [
+          5.653229748603352,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.655,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "provenance": "User supplied section image dimensions and zero-origin scaling principle; full extent inferred from COL/ROW grid and Xt-X/Yt-Y tile offsets",
+      "csv_path": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\metadata\\WD-76845-106.csv",
+      "source_csv_sha256": "f5fea731e43ac54e5b0ea55303d0a72c9e306fc774b89b86c8b3f4c2e34cc942",
+      "inferred_grid": {
+        "section": "106",
+        "height": 3000,
+        "width": 2864,
+        "tile_columns": 19,
+        "tile_rows": 25,
+        "pitch_x": 852.15,
+        "pitch_y": 678.6,
+        "full_Xt_width": 16190.85,
+        "full_Yt_height": 16965.0,
+        "sx": 5.653229748603352,
+        "sy": 5.655,
+        "max_cell_Xt": 16098.207,
+        "max_cell_Yt": 16628.329,
+        "frame_layout_max_error": 0.0
+      }
+    }
+  }
+}

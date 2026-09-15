@@ -1,0 +1,124 @@
+{
+  "section": "002",
+  "reference_section": "052",
+  "source_sha256": "42f21a20ded396e774c176fca68b8d866d1c037b2af7534dd65aa8f1853d179f",
+  "source_shape": [
+    3000,
+    2827,
+    4
+  ],
+  "image_pixel_to_global_XtYt": [
+    [
+      0.0,
+      6.4783333333333335,
+      0.0
+    ],
+    [
+      -6.482985496993279,
+      0.0,
+      18320.917014503008
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "global_to_reference_global": [
+    [
+      0.15722635995796788,
+      -0.9875625912995922,
+      16864.440845321544
+    ],
+    [
+      0.9875625912995916,
+      0.1572263599579682,
+      -1720.648000901042
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "image_to_reference_image": [
+    [
+      1.0113339642366388,
+      0.16089537570245083,
+      -194.07494227562165
+    ],
+    [
+      -0.16093473085647222,
+      1.0101300451511284,
+      183.13172482968162
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "reference_image_to_image": [
+    [
+      0.9643499637338045,
+      -0.1536034399416181,
+      215.28582644141687
+    ],
+    [
+      0.15364101148157522,
+      0.965499320029089,
+      -146.995685364357
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_selected_center_xy": [
+    1224.5629571792554,
+    1925.1116339278376
+  ],
+  "aligned_selected_center_xy": [
+    1354.1087272757943,
+    1930.6701165997215
+  ],
+  "composed_global_rotation_angle_deg": 80.95405927070763,
+  "z": 0.0,
+  "exact_point_count": 48668,
+  "image_to_common_canvas": [
+    [
+      1.0113339642366388,
+      0.16089537570245083,
+      -856.0749422756217
+    ],
+    [
+      -0.16093473085647222,
+      1.0101300451511284,
+      -1354.8682751703184
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "common_canvas_shape_yx": [
+    865,
+    1219
+  ],
+  "common_canvas_origin_in_reference_image_xy": [
+    662.0,
+    1538.0
+  ],
+  "channels": [
+    "selected_TLS_mask",
+    "selected_TLS_region_ID",
+    "strongest_Otsu_class_3",
+    "signed_true_Bcore_ID"
+  ],
+  "dtype": "int16",
+  "interpolation": "nearest neighbor",
+  "coordinates": "array[y,x,c]; reference052_xy = [x,y] + common_canvas_origin_in_reference_image_xy",
+  "exact_data": "../exact_points/CRC01_002_selected_TLS_aligned.npz"
+}

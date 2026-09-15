@@ -1,0 +1,124 @@
+{
+  "section": "052",
+  "reference_section": "052",
+  "source_sha256": "7d76739e8633d71a4ebb1141287eeedd0def3ea7d86a94761ee013cd6fe0fcac",
+  "source_shape": [
+    3000,
+    2686,
+    4
+  ],
+  "image_pixel_to_global_XtYt": [
+    [
+      6.33060312732688,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      6.333600000000001,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "global_to_reference_global": [
+    [
+      1.0,
+      -2.7755575615628914e-17,
+      0.0
+    ],
+    [
+      0.0,
+      0.9999999999999999,
+      2.2737367544323206e-13
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "image_to_reference_image": [
+    [
+      0.9999999999999999,
+      -2.776871495234237e-17,
+      0.0
+    ],
+    [
+      0.0,
+      0.9999999999999998,
+      3.5899595087032973e-14
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "reference_image_to_image": [
+    [
+      1.0000000000000002,
+      2.776871495234238e-17,
+      -9.968856228763295e-31
+    ],
+    [
+      0.0,
+      1.0000000000000002,
+      -3.589959508703298e-14
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_selected_center_xy": [
+    1314.424212771296,
+    1927.576916321666
+  ],
+  "aligned_selected_center_xy": [
+    1314.4242127712957,
+    1927.5769163216655
+  ],
+  "composed_global_rotation_angle_deg": 0.0,
+  "z": 250.0,
+  "exact_point_count": 79710,
+  "image_to_common_canvas": [
+    [
+      0.9999999999999999,
+      -2.776871495234237e-17,
+      -662.0
+    ],
+    [
+      0.0,
+      0.9999999999999998,
+      -1538.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "common_canvas_shape_yx": [
+    865,
+    1219
+  ],
+  "common_canvas_origin_in_reference_image_xy": [
+    662.0,
+    1538.0
+  ],
+  "channels": [
+    "selected_TLS_mask",
+    "selected_TLS_region_ID",
+    "strongest_Otsu_class_3",
+    "signed_true_Bcore_ID"
+  ],
+  "dtype": "int16",
+  "interpolation": "nearest neighbor",
+  "coordinates": "array[y,x,c]; reference052_xy = [x,y] + common_canvas_origin_in_reference_image_xy",
+  "exact_data": "../exact_points/CRC01_052_selected_TLS_aligned.npz"
+}

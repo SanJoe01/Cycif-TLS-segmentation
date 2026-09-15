@@ -1,0 +1,183 @@
+{
+  "pipeline_version": "1.1",
+  "source_section": "014",
+  "target_section": "007",
+  "section_number_gap": 7,
+  "source_sha256": "17b5cdfcad8adb289c288a98f63fbdb046d9ae39262fccc69afc42d141efed25",
+  "target_sha256": "e09e1551c2db77a627ba18aa2e8300886ab858709d8c4792dd8d3ffd1f3e3d4a",
+  "coordinate_system": "original whole-section Xt/Yt pixels; x right, y down",
+  "formula": "xy_target = (xy_source - source_center_xy) @ rotation_matrix.T + target_center_xy",
+  "rotation_angle_deg": -13.48082711429684,
+  "angle_convention": "atan2(R[1,0],R[0,0]); positive looks clockwise when plotting y downward",
+  "source_center_xy": [
+    8528.95882636304,
+    11255.041908255987
+  ],
+  "target_center_xy": [
+    7746.984861587079,
+    12046.509506304707
+  ],
+  "translation_after_rotation_about_source_center_xy": [
+    -781.9739647759607,
+    791.4675980487191
+  ],
+  "affine_offset_xy": [
+    -3170.7589472228783,
+    3089.8372926091215
+  ],
+  "rotation_matrix": [
+    [
+      0.9724479837726286,
+      0.23311996666212484
+    ],
+    [
+      -0.23311996666212484,
+      0.9724479837726285
+    ]
+  ],
+  "determinant": 1.0000000000000007,
+  "homogeneous_matrix_source_to_target": [
+    [
+      0.9724479837726286,
+      0.23311996666212484,
+      -3170.7589472228783
+    ],
+    [
+      -0.23311996666212484,
+      0.9724479837726285,
+      3089.8372926091215
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "homogeneous_matrix_target_to_source": [
+    [
+      0.972447983772628,
+      -0.2331199666621247,
+      3803.7009119003365
+    ],
+    [
+      0.2331199666621247,
+      0.972447983772628,
+      -2265.538825312985
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "homogeneous_convention": "column vectors: [x_target,y_target,1] = H @ [x_source,y_source,1]",
+  "method": {
+    "name": "PASTE cell-count-weighted",
+    "alpha": 0.1,
+    "dissimilarity": "euclidean",
+    "norm": false,
+    "numItermax": 200,
+    "bin_size": 400,
+    "min_cells": 5,
+    "normalization": "pairwise pooled per-feature p1/p99; clip [0,1]",
+    "features": [
+      "Hoechst0",
+      "Hoechst1",
+      "Hoechst2",
+      "Hoechst3",
+      "Hoechst4",
+      "Hoechst5",
+      "Hoechst6",
+      "Hoechst7",
+      "Hoechst8",
+      "Hoechst9",
+      "AF488",
+      "A488",
+      "CD3",
+      "Ki67",
+      "CD4",
+      "CD20",
+      "CD163",
+      "Ecadherin",
+      "LaminABC",
+      "PCNA",
+      "AF555",
+      "A555",
+      "NaKATPase",
+      "Keratin",
+      "CD45",
+      "CD68",
+      "FOXP3",
+      "Vimentin",
+      "Desmin",
+      "Ki67_570",
+      "AF647",
+      "A647",
+      "CD45RO",
+      "aSMA",
+      "PD1",
+      "CD8a",
+      "PDL1",
+      "CDX2",
+      "CD31",
+      "Collagen"
+    ],
+    "bin_weights": "cell_count / retained cell total",
+    "initialization": "spatial EMD after current baseline rotation and weighted centering"
+  },
+  "objective": 59305.51323824602,
+  "n_target_bins": 1191,
+  "n_source_bins": 1053,
+  "validation": {
+    "paste_mapping_max_error_px": 3.637978807091713e-12,
+    "transport_mass": 1.0,
+    "raw_transport_mass": 1.0,
+    "raw_target_marginal_excess": 4.336808689942018e-18,
+    "raw_source_marginal_excess": 5.854691731421724e-18,
+    "normalized_target_center_error": 0.0,
+    "normalized_source_center_error": 0.0
+  },
+  "qc_before": {
+    "symmetric_nn_median_px": 59.75999653363729,
+    "symmetric_nn_p95_px": 1274.233952580196,
+    "fraction_within_400px": 0.8355614973262032,
+    "transport_rmse_px": 1887.078996938846,
+    "transport_feature_mse": 1.6623296737914308
+  },
+  "qc_after": {
+    "symmetric_nn_median_px": 167.46617996569688,
+    "symmetric_nn_p95_px": 451.0003476756107,
+    "fraction_within_400px": 0.9318181818181818,
+    "transport_rmse_px": 846.5900000255766,
+    "transport_feature_mse": 1.6623296737914308
+  },
+  "qc_status": "pass_whole_section_qc",
+  "qc_reasons": [],
+  "qc_scope": "Whole-section and >=50-cell-bin geometry QC. Partial-match fractions are supplied; no independent TLS/local landmark validation.",
+  "runtime_seconds": 10.290685653686523,
+  "revision": "selected_three_v1",
+  "selection_locked": true,
+  "qc_extended": {
+    "all_p95": 451.0003476756107,
+    "dense_p95": 634.4394861174053,
+    "cell_weighted_p95": 320.4503078850803,
+    "within400": 0.9318181818181818,
+    "target_p95": 569.1037583859293,
+    "source_p95": 314.5766696833064,
+    "dense_bins_over800": 76,
+    "sparse_target_bad": 10,
+    "sparse_source_bad": 3,
+    "matched_support_dense_p95": 634.4394861174053,
+    "matched_mass": 1.0,
+    "source_bins_half_or_more_matched": 1053,
+    "target_bins_half_or_more_matched": 1191,
+    "match_fraction_note": "Transport participation, not an independently verified tissue overlap mask.",
+    "local_tls_validated": false
+  },
+  "coupling_description": "Rows target, columns source. coupling.npz is normalized to sum 1 over matched mass; coupling_raw.npz retains actual transported mass.",
+  "transport_mass_before_normalization": 1.0,
+  "previous_rotation_angle_deg": -16.98214128477457,
+  "supersedes_backup": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\paste_alignment\\adjacent_sections\\updates\\selected_three_v1\\backup\\pairs\\014_to_007",
+  "source_candidate": "D:\\cycif_segmentation\\raw_download\\cycif_segmentation\\paste_alignment\\adjacent_sections\\diagnostics\\all_pairs_weight_audit\\pairs\\014_to_007",
+  "objective_definition": "Recomputed nonnegative FGW: alpha*GW+(1-alpha)*feature; original pixel distances."
+}

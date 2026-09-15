@@ -1,3 +1,9 @@
 *.npy filter=lfs diff=lfs merge=lfs -text
 visualizations/*.html filter=lfs diff=lfs merge=lfs -text
 figures/*.png filter=lfs diff=lfs merge=lfs -text
+
+*.npz filter=lfs diff=lfs merge=lfs -text
+
+# Preserve the bytes used by alignment/artifact_manifest.json across platforms.
+alignment/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+data/aligned_selected_tls/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
