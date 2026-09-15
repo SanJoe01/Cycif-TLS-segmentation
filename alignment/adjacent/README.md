@@ -2,7 +2,7 @@
 
 These are the saved final `pairs/*/qc.png` images, including the accepted revisions for 014→007, 025→020, 044→039 and 049→044. No historical candidate images are substituted.
 
-方向：source → target，输入为原始全片 Xt/Yt。图中 px 字样沿用配准输出，数值按 CSV 的 Xt/Yt 单位理解。这里只汇集最终图，不重新评估用户已核验的配对。
+Direction: source → target; input consists of the original full-frame images Xt/Yt. The "px" labels in the figures reflect the registration output, with numerical values ​​corresponding to the Xt/Yt units specified in the CSV. Only the final images are compiled here; pairs already verified by the user are not re-evaluated.
 
 ## 007_to_002 · -79.738293°
 
